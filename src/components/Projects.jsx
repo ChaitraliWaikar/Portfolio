@@ -5,7 +5,7 @@ import proj2 from "../images/proj2.png"
 import VBS  from "../images/Home.png"
 import MoneyWise from "../images/MONEYWISE.png"
 import tweetAgent from "../images/Tweetgen.png"
-import skillduels from "../images/skillduels.png"
+import skillduels from "../images/Skillduels.png"
 
 function Projects(props)
 {
