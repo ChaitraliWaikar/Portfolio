@@ -3,7 +3,7 @@ import "./Projects.css"
 import proj1 from "../images/proj1.png"
 import proj2 from "../images/proj2.png"
 import VBS  from "../images/Home.png"
-import MoneyWise from "../images/MoneyWise.png"
+import MoneyWise from "../images/MONEYWISE.png"
 import tweetAgent from "../images/Tweetgen.png"
 import skillduels from "../images/skillduels.png"
 
