@@ -1,0 +1,134 @@
+/* Aboutme.css */
+
+/* Light Mode */
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: 4rem 2rem;
+  background-color: #ffffff;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Dark Mode */
+.aboutme-dark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding: 4rem 2rem;
+  background-color: #1B3C53;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.highlight-dark {
+  font-weight: 700;
+  color: #c3d9ed;
+}
+
+.image-container {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #98bcdf;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease;
+}
+
+.aboutme-dark .image-container {
+  border: 5px solid #456882;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+  line-height: 1.8;
+  text-align: center;
+  font-size: 25px;
+  color: #555;
+  padding: 0 1rem;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  width: 150%;
+  transition: color 0.3s ease;
+}
+
+.aboutme-dark .intro {
+  color: #D2C1B6;
+}
+
+.aboutme-dark b {
+  color: #D2C1B6;
+}
+
+.contact-btns {
+  padding: 2rem 2rem;
+  background-color: #98bcdf;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutme-dark .contact-btns {
+  background-color: #456882;
+  color: #D2C1B6;
+}
+
+.contact-btns:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.aboutme-dark .contact-btns:hover {
+  background-color: #456882;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    width: 180px;
+    height: 180px;
+  }
+  
+  .intro {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+.highlight {
+  font-weight: 700;
+  color: #34608c;
+}

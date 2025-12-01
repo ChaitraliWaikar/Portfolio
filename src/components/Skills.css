@@ -1,0 +1,234 @@
+/* Skills.css */
+
+/* Light Mode */
+.skills-section {
+  width: 100%;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+/* Dark Mode */
+.skills-section-dark {
+  width: 100%;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1B3C53;
+  transition: all 0.3s ease;
+}
+
+.skills-main-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #2c3e50;
+  transition: color 0.3s ease;
+}
+
+.skills-section-dark .skills-main-title {
+  color: #D2C1B6;
+}
+
+.skills-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  flex: 1;
+  min-width: 250px;
+}
+
+.category-title {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  text-align: center;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.skills-section-dark .category-title {
+  color: #D2C1B6;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  align-items: center;
+}
+
+.skills-section .card,
+.skills-section-dark .card {
+  width: 200px;
+  height: 220px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin: 0;
+}
+
+.skills-section-dark .card {
+  background-color: #234C6A;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skills-section .card:hover,
+.skills-section-dark .card:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.skills-section-dark .card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.skills-section .card img,
+.skills-section-dark .card img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.skills-section .card:hover img,
+.skills-section-dark .card:hover img {
+  transform: scale(1.1);
+}
+
+.skills-section .card h3,
+.skills-section-dark .card h3 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  text-align: center;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.skills-section-dark .card h3 {
+  color: #D2C1B6;
+}
+
+/* Tablet - Stack in 2 columns */
+@media (max-width: 1024px) {
+  .skills-cards {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .cards-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skills-main-title {
+    font-size: 2rem;
+  }
+
+  .category-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .skills-section,
+  .skills-section-dark {
+    padding: 3rem 1rem;
+  }
+
+  .skills-main-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .skills-cards {
+    gap: 2rem;
+  }
+
+  .container {
+    gap: 1.5rem;
+  }
+
+  .category-title {
+    font-size: 1.3rem;
+  }
+
+  .skills-section .card,
+  .skills-section-dark .card {
+    width: 150px !important;
+    height: 180px !important;
+    padding: 1rem !important;
+  }
+
+  .skills-section .card img,
+  .skills-section-dark .card img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .skills-section .card h3,
+  .skills-section-dark .card h3 {
+    font-size: 1rem !important;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .skills-main-title {
+    font-size: 1.5rem;
+  }
+
+  .category-title {
+    font-size: 1.1rem;
+  }
+
+  .skills-section .card,
+  .skills-section-dark .card {
+    width: 130px !important;
+    height: 160px !important;
+  }
+
+  .skills-section .card img,
+  .skills-section-dark .card img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .skills-section .card h3,
+  .skills-section-dark .card h3 {
+    font-size: 0.9rem !important;
+  }
+}
