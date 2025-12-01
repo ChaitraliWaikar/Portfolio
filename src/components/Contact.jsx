@@ -1,8 +1,4 @@
-
 import './Contact.css'
-import gt from "../images/githubicon.png"
-import linkedin from "../images/linkedinicon.png" 
-import email from "../images/emailicon.png" 
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -29,21 +25,22 @@ function Contact({ darkMode }) {
       );
   };
 
+  // Using public folder paths
   const contactCards = [
     {
-      image: email,
+      image: "/images/emailicon.png",
       title: "Email",
       handle: "chaitraliwaikar05@gmail.com",
       link: "mailto:chaitraliwaikar05@gmail.com"
     },
     {
-      image: linkedin,
+      image: "/images/linkedinicon.png",
       title: "LinkedIn",
       handle: "linkedin.com/in/chaitrali-waikar",
       link: "https://www.linkedin.com/in/chaitrali-waikar-5a482b282/"
     },
     {
-      image: gt,
+      image: "/images/githubicon.png",
       title: "GitHub",
       handle: "github.com/Chaitrali-Waikar",
       link: "https://github.com/ChaitraliWaikar"
@@ -66,11 +63,7 @@ function Contact({ darkMode }) {
           >
             <div className="contact-card">
               <div className="icon-wrapper">
-                {contact.image ? (
-                  <img src={contact.image} alt={contact.title} className="contact-icon" />
-                ) : (
-                  contact.icon
-                )}
+                <img src={contact.image} alt={contact.title} className="contact-icon" />
               </div>
               <h3 className="contact-title">{contact.title}</h3>
               <p className="contact-handle">{contact.handle}</p>
@@ -135,4 +128,4 @@ function Contact({ darkMode }) {
   )
 }
 
-export default Contact
+export default Contact;
