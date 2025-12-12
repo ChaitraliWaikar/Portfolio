@@ -33,13 +33,13 @@ function Projects(props) {
                     </div>
                 </a>
 
-                <a href="https://github.com/ChaitraliWaikar/Aarambh" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/ChaitraliWaikar/realtime-chat-app" target="_blank" rel="noopener noreferrer">
                     <div className="card">
-                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=250&fit=crop" className="img-container" alt="proj-img" />
-                        <h3 className="proj-title">Aarambh</h3>
+                        <img src="/images/chat_App.png" className="img-container" alt="proj-img" />
+                        <h3 className="proj-title">Real-time chat app</h3>
                         <p className="desc">
-                            A habit tracking application with Firebase authentication and real-time data sync.
-                            Built with <span className="highlight">HTML, CSS, JavaScript, and Firebase.</span>
+                             React frontend + lightweight vanilla JS client, both powered by a single 
+                             <span className="highlight"> Node.js/Express/Socket.IO backend with REST API.</span>
                         </p>
                         <button className="view-btn">View Project details</button>
                     </div>
