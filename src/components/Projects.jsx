@@ -9,42 +9,18 @@ function Projects(props) {
             <h2 className="title">Projects</h2>
             <div className="cards-container">
 
-                <a href="https://github.com/ChaitraliWaikar/Meal-Bridge" target="_blank" rel="noopener noreferrer">
+                   <a href="https://github.com/ChaitraliWaikar/SkillDuels" target="_blank" rel="noopener noreferrer">
                     <div className="card">
-                        <img src="/images/proj2.png" className="img-container" alt="proj-img" />
-                        <h3 className="proj-title">Meal Bridge</h3>
+                        <img src="/images/Skillduels.png" className="img-container" alt="proj-img" />
+                        <h3 className="proj-title">SkillDuels (Ongoing)</h3>
                         <p className="desc">
-                            A web app connecting home cooks with communities to share surplus meals,
-                            reducing food waste. Built with <span className="highlight">HTML, CSS, JavaScript</span>
-                        </p>
+                            A gamified web platform that promotes competitive learning by allowing students to challenge each other in quizzes and skill-based games.
+                            <span className="highlight">MERN stack app with real-time multiplayer functionality using Socket.io.</span>
+                        </p> 
                         <button className="view-btn">View Project details</button>
                     </div>
                 </a>
-
-                <a href="https://github.com/ChaitraliWaikar/Virtual-Banking-System" target="_blank" rel="noopener noreferrer">
-                    <div className="card">
-                        <img src="/images/Home.png" className="img-container" alt="proj-img" />
-                        <h3 className="proj-title">Virtual Banking System</h3>
-                        <p className="desc">
-                            A secure banking application with transaction management, account handling, and real-time updates.
-                            Built with <span className="highlight">Java Swing, JDBC, and SQL.</span>
-                        </p>
-                        <button className="view-btn">View Project details</button>
-                    </div>
-                </a>
-
-                <a href="https://github.com/ChaitraliWaikar/realtime-chat-app" target="_blank" rel="noopener noreferrer">
-                    <div className="card">
-                        <img src="/images/chat_App.png" className="img-container" alt="proj-img" />
-                        <h3 className="proj-title">Real-time chat app</h3>
-                        <p className="desc">
-                             React frontend + lightweight vanilla JS client, both powered by a single 
-                             <span className="highlight"> Node.js/Express/Socket.IO backend with REST API.</span>
-                        </p>
-                        <button className="view-btn">View Project details</button>
-                    </div>
-                </a>
-
+             
                 <a href="https://github.com/ChaitraliWaikar/MoneyWise" target="_blank" rel="noopener noreferrer">
                     <div className="card">
                         <img src="/images/MONEYWISE.png" className="img-container" alt="proj-img" />
@@ -56,6 +32,32 @@ function Projects(props) {
                         <button className="view-btn">View Project details</button>
                     </div>
                 </a>
+
+                      <a href="https://github.com/ChaitraliWaikar/Virtual-Banking-System" target="_blank" rel="noopener noreferrer">
+                    <div className="card">
+                        <img src="/images/Home.png" className="img-container" alt="proj-img" />
+                        <h3 className="proj-title">Virtual Banking System</h3>
+                        <p className="desc">
+                            A secure banking application with transaction management, account handling, and real-time updates.
+                            Built with <span className="highlight">Java Swing, JDBC, and SQL.</span>
+                        </p>
+                        <button className="view-btn">View Project details</button>
+                    </div>
+                </a>
+
+
+                   <a href="https://github.com/ChaitraliWaikar/realtime-chat-app" target="_blank" rel="noopener noreferrer">
+                    <div className="card">
+                        <img src="/images/chat_App.png" className="img-container" alt="proj-img" />
+                        <h3 className="proj-title">Real-time chat app</h3>
+                        <p className="desc">
+                             React frontend + lightweight vanilla JS client, both powered by a single 
+                             <span className="highlight"> Node.js/Express/Socket.IO backend with REST API.</span>
+                        </p>
+                        <button className="view-btn">View Project details</button>
+                    </div>
+                </a>
+
 
                 <a href="https://github.com/ChaitraliWaikar/Python_AI_Projects" target="_blank" rel="noopener noreferrer">
                     <div className="card">
@@ -69,18 +71,19 @@ function Projects(props) {
                     </div>
                 </a>
 
-                <a href="https://github.com/ChaitraliWaikar/SkillDuels" target="_blank" rel="noopener noreferrer">
+            
+                <a href="https://github.com/ChaitraliWaikar/Meal-Bridge" target="_blank" rel="noopener noreferrer">
                     <div className="card">
-                        <img src="/images/Skillduels.png" className="img-container" alt="proj-img" />
-                        <h3 className="proj-title">SkillDuels (Ongoing)</h3>
+                        <img src="/images/proj2.png" className="img-container" alt="proj-img" />
+                        <h3 className="proj-title">Meal Bridge</h3>
                         <p className="desc">
-                            A gamified web platform that promotes competitive learning by allowing students to challenge each other in quizzes and skill-based games.
-                            <span className="highlight">MERN stack app with real-time multiplayer functionality using Socket.io.</span>
-                        </p> 
+                            A web app connecting home cooks with communities to share surplus meals,
+                            reducing food waste. Built with <span className="highlight">HTML, CSS, JavaScript</span>
+                        </p>
                         <button className="view-btn">View Project details</button>
                     </div>
                 </a>
-
+             
             </div>
         </div>
     )
