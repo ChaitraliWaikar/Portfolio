@@ -1,12 +1,16 @@
-# React + Vite
+Markdown# Chaitrali Waikar – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live website: https://portfolio-8dic.vercel.app
 
-Currently, two official plugins are available:
+My first personal portfolio website, built from scratch with React + Vite and deployed on Vercel.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is an early version – clean, functional, and fully responsive.  
+UI/UX refinements, animations, and new sections are the future updates that needs to be made.
 
-## Expanding the ESLint configuration
+### Built with
+- React 18
+- Vite
+- Tailwind CSS
+- Vercel (hosting)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+More coming soon.  
